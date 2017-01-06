@@ -1,0 +1,8 @@
+lane :bonjour do
+
+	scan(
+		code_coverage: true
+	)
+	xcov
+
+end
